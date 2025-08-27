@@ -1,0 +1,23 @@
+teacher:
+  name: 王老师
+  gender: 女
+  age: 35
+  students:
+    - name: 张三
+      gender: 男
+      age: ${random.int(15,18)}
+      scores:
+        "[数学]": ${random.int(70,80)}
+        "[英语]": ${random.int(90,100)}
+        "[语文]": ${random.int(80,90)}
+
+    - name: 李四
+      gender: 女
+      age: ${random.int(15,18)}
+      scores:
+        "[数学]": ${random.int(70,80)}
+        "[英语]": ${random.int(90,100)}
+        "[语文]": ${random.int(80,90)}
+spring:
+  profiles:
+    active: pro

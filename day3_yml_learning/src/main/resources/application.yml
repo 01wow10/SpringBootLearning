@@ -1,0 +1,20 @@
+sysUser: zhangSan
+age: 18
+
+com:
+  model:
+    users:
+      name: 李四
+      gender: 男
+      age: 18
+      money: 1000
+      birth: 2018/01/01
+      likes:
+        - 篮球
+        - 游泳
+        - 羽毛球
+      list: [1,2,3]
+
+spring:
+  profiles:
+    active: dev
